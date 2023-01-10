@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>H & H Ecommerce</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+    </style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Nav Menu  -->
+    <div class="heading">
+        <h1>HOME</h1>
+    </div>
+    <header>
+        <nav>
+
+
+            <a class="logo">
+                <img src="./imgs/logo.png" title="logo">
+            </a>
+            <a class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+                <li><a href="users.html">Users</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <div class="gif">
+        <img src="./imgs/slider.gif ">
+    </div>
+
+    <div class="products">
+        
+        <div class="container">
+            <h1>Products</h1>
+            <div class="card">
+                <div class="image">
+                    <img src="./imgs/product1.jpg" alt="Denim Jeans">
+                </div>
+                <div class="desc">
+                    <h2>Tailored Jeans</h2>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans..</p>
+                    <button onclick="window.location.href='products.html'">READ MORE</button>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <div class="image">
+                    <img src="./imgs/product2.jpg" alt="Denim Jeans">
+                </div>
+                <div class="desc">
+                    <h2>Tailored Jeans</h2>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans..</p>
+                    <button onclick="window.location.href='products.html'">READ MORE</button>
+                </div>
+            </div>
+
+
+
+            <div class="card">
+                <div class="image">
+                    <img src="./imgs/product3.webp" alt="Denim Jeans">
+                </div>
+                <div class="desc">
+                    <h2>Tailored Jeans</h2>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans..</p>
+                    <button onclick="window.location.href='products.html'">READ MORE</button>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="image">
+                    <img src="./imgs/product2.jpg" alt="Denim Jeans">
+                </div>
+                <div class="desc">
+                    <h2>Tailored Jeans</h2>
+                    <p class="price">$19.99</p>
+                    <p>Some text about the jeans..</p>
+                    <button onclick="window.location.href='products.html'">READ MORE</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="copyright">
+          <p>&copy 2023 - Hossam And Hashem (H&H)</p>
+        </div>
+        <div class="social">
+          <a href="contactUs.html" class="support">Contact Us</a>
+          <a href="https://www.facebook.com/hossamfahmyuiux/" class="face">f</a>
+          <a href="https://twitter.com/fahmyuiux" class="tweet">t</a>
+          <a href="https://www.linkedin.com/in/hossamfahmi/" class="linked">in</a>
+        </div>
+      </footer>
+
+      <script src="./js/main.js"></script>
+      <script>
+
+$( "header nav .menu" ).toggle(
+    function() {
+      this .addClass( "selected" );
+    }, function() {
+      this .removeClass( "selected" );
+    }
+  );
+      </script>
+</body>
+
+</html>
