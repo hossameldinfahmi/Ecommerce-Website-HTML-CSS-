@@ -133,6 +133,7 @@ header nav ul li a:checked {
     }
     header nav ul li{
         border: 1px solid #ccc;
+        padding: 0;
     }
     header nav ul li:hover a{
         color: white;
@@ -154,11 +155,14 @@ header nav ul li a:checked {
 
     header nav ul li {
         display: block;
-        padding: 20px 0;
+        padding: 0 0;
+
     }
 
     header nav ul li a {
         font-size: 1rem;
+        display: block;
+        line-height: 60px;
     }
 
     header nav .menu {
@@ -187,6 +191,7 @@ header nav ul li a:checked {
     header nav ul li a {
         font-size: 1rem;
         padding-bottom: 20px;
+
 
     }
     header nav .menu {
