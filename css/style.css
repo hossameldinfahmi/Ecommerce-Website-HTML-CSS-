@@ -59,8 +59,18 @@ header nav .menu {
     color: #1a1463;
     margin-top: 15px;
     cursor: pointer;
-    display: none;
+    display: none!important;
 }
+
+header nav .menu:hover {
+    transform: rotate(180deg);
+    
+}
+header nav .menu:checked {
+    transform: rotate(180deg);
+    
+}
+
 
 header nav .logo:hover {
     transform: rotate(135deg);
@@ -115,10 +125,22 @@ header nav ul li a:checked {
     }
 
     header nav ul {
-        display: block;
+        display: none;
         width: 100%;
         text-align: center;
-        padding: 0;
+        background-color: #f3f6f4;
+        padding: 20px 0;
+    }
+    header nav ul li{
+        border: 1px solid #ccc;
+    }
+    header nav .active {
+        -moz-transition: all, 0.3s;
+        -o-transition: all, 0.3s;
+        -webkit-transition: all, 0.3s;
+        transition: all, 0.3s;
+        display: block;
+
     }
 
     header nav ul li {
@@ -131,7 +153,12 @@ header nav ul li a:checked {
     }
 
     header nav .menu {
-        display: inline-block;
+        display: inline-block!important;
+
+        -moz-transition: all, 0.3s;
+        -o-transition: all, 0.3s;
+        -webkit-transition: all, 0.3s;
+        transition: all, 0.3s;
     }
 
 
@@ -141,15 +168,24 @@ header nav ul li a:checked {
     header {
         padding: 10px 20px;
     }
+ 
 
     header nav ul {
         padding-top: 5px;
+        display: none;
+    }
+    header nav ul.active {
+        display: block;
     }
 
     header nav ul li a {
         font-size: 1rem;
         padding-bottom: 20px;
 
+    }
+    header nav .menu {
+        display: block;
+    
     }
 
 

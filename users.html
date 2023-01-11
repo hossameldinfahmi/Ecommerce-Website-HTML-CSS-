@@ -23,7 +23,7 @@
 <body>
     <!-- Nav Menu  -->
     <div class="heading">
-        <h1>PRODUCTS</h1>
+        <h1>Users</h1>
     </div>
     <header>
         <nav>
@@ -36,7 +36,7 @@
                 <i class="fa-solid fa-bars"></i>
             </a>
 
-            <ul>
+            <ul class="nav-menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contactUs.html">Contact Us</a></li>
                 <li><a href="users.html">Users</a></li>
@@ -91,7 +91,7 @@
                 </tr>
                 <tr>
                   <td>Mohamed Adel</td>
-                  <td>65</td>
+                  <td>67</td>
                   <td>Germany</td>
                 </tr>
                 <tr>
@@ -101,12 +101,12 @@
                 </tr>
                 <tr>
                   <td>Amr Salah</td>
-                  <td>65</td>
+                  <td>62</td>
                   <td>Italy</td>
                 </tr>
                 <tr>
                   <td>Omar Amgd</td>
-                  <td>65</td>
+                  <td>689</td>
                   <td>Zimbabwe</td>
                 </tr>
                 <tr>
@@ -138,6 +138,27 @@
             <a href="#" class="linked">in</a>
         </div>
     </footer>
+
+    <script>
+      const hamburger = document.querySelector(".menu");
+      const navMenu = document.querySelector(".nav-menu");
+
+      hamburger.addEventListener("click", () => {
+          hamburger.classList.toggle("active");
+          navMenu.classList.toggle("active");
+      })
+
+      document.querySelectorAll(".nav-menu").forEach(n => n.
+
+          addEventListener("click", () => {
+              hamburger.classList.remove("active");
+              navMenu.classList.remove("active");
+
+          }))
+
+
+  </script>
+ 
 </body>
 
 </html>
