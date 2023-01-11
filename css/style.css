@@ -134,6 +134,15 @@ header nav ul li a:checked {
     header nav ul li{
         border: 1px solid #ccc;
     }
+    header nav ul li:hover a{
+        color: white;
+        border: 0;
+    }
+    header nav ul li:hover {
+        background-color: #5E5DF0;
+        color: white;
+        border: 1px solid #ccc;
+    }
     header nav .active {
         -moz-transition: all, 0.3s;
         -o-transition: all, 0.3s;
@@ -172,10 +181,7 @@ header nav ul li a:checked {
 
     header nav ul {
         padding-top: 5px;
-        display: none;
-    }
-    header nav ul.active {
-        display: block;
+       
     }
 
     header nav ul li a {
