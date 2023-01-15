@@ -283,6 +283,7 @@ header nav ul li a:checked {
 }
 
 @media only screen and (max-width: 600px) {
+    
     .products .container {
         padding: 20px;
     }
@@ -355,6 +356,9 @@ footer .copyright p {
     footer .copyright p {
         text-align: center;
         padding: 0;
+    }
+    footer{
+        margin-top: 190px;
     }
 }
 
@@ -687,5 +691,21 @@ input[type=submit]:hover {
     margin-bottom: 60px;
     font-size: 2.5rem;
     font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .users .container {
+        padding: 30px 30px;
+    }
+
+    .users .container h1 {
+        font-size: 1.5rem;
+    }
+
+    .reg .container {
+        padding: 30px 30px;
+    }
+    
 
 }
